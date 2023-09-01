@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.nav-container{
+
+}
+
+.home-container{
+    background-color:rgba(186, 221, 233, 0.349) ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+ 
+}
+
+.home-container:hover{
+    border:2px solid rgb(80, 152, 179);
+
+}
+
+#profile-pic{
+    border-radius: 100%;
+    width:110px;
+    height:110px
+}
+h1{
+    font-family: Libre Baskerville;
+}
+
+p{
+    font-family: Libre Baskerville;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px){
+
+}
+
+
+@media (min-width:1024px){
+
+
+}
