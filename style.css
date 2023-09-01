@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
-
 }
 
 .nav-container{
 
 }
+
 
 .home-container{
     background-color:rgba(186, 221, 233, 0.349) ;
@@ -15,11 +15,6 @@
     justify-content: center;
     height:300px;
  
-}
-
-.home-container:hover{
-    border:2px solid rgb(80, 152, 179);
-
 }
 
 #profile-pic{
@@ -36,13 +31,89 @@ p{
     font-size: 20px;
 }
 
+.about-card-container{
+    border-top: 2px solid rgb(215, 225, 243);
+    border-bottom: 2px solid rgb(215, 225, 243);
+
+}
 
 
 
+.title-item{
+    border-radius: 10px;
+    height:50px;
+    width:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #56329A;
+    color: #FFF;
+
+}
+.align-item{
+    padding-left:40px;
+    padding-right:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-left:5%;
+    margin-right:30px;
+    margin-bottom:20px;
+    margin-top:0px;
+    border:2px solid rgb(86, 50, 154);
+    border-radius:10px;
+}
+
+.align-header-container{
+    height:70px;
+    display:flex;
+    align-items: center;
+    padding-left:10%;
+    padding-right:10%;    
+    padding-top:30px;
+    margin-right:10px;
+    padding-bottom:20px
+}
+.projects-container{
+    background-color:rgba(186, 221, 233, 0.349) ;
+    padding-bottom:20px;   
+
+}
+
+.projects-title-container{
+    justify-content: end;
 
 
 
+}
+.title-item{
+    border-radius: 10px;
+    height:50px;
+    width:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #56329A;
+    color: #FFF;
+    
 
+}
+
+.project-cards-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    justify-content: center;
+    justify-self: center;
+    gap: 50px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #FFF;
+    
+}
+
+
+.card-align{
+    justify-self: center;
+}
 
 
 
